@@ -1,0 +1,28 @@
+26
+23
+#EEEEDEDEDDEDEED#######
+#  E        # #   #   D
+#   E          ## K#  D
+#W  E   #  KKK      # E
+#  E ** #  K ##  T#   #
+#  E  **##  K   # #   E
+#  E *  #       #  #  #
+#   E* *##   KK       E
+#     * ##    K  #    E
+#   E  *##    K K     #
+#   E   ##E E  KK K   E
+#     EE    E    KK % #
+#            E        E
+#  *     I      E   G #
+#        I            E
+#  *         I   E    E
+E  *      I I     E   #
+#    * #          E   E
+E     # #  IID D      #
+EE      DD     DD     E
+E   *   D     DDD     #
+E   *  ##       D     D
+E  *   ###      DD  T D
+E       #       DD    D
+E        #      DD    D
+EEEEDDDDDDEEEEDDDDDDDDD

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{FCADA8AC-3A06-4753-8BEF-32B5B0EC10E3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Pacman</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Constants.cpp" />
+    <ClCompile Include="gameWindow.cpp" />
+    <ClCompile Include="Game\GameState.cpp" />
+    <ClCompile Include="Game\main.cpp" />
+    <ClCompile Include="Game\MenuState.cpp" />
+    <ClCompile Include="Game\PacEngine.cpp" />
+    <ClCompile Include="Game\ScoreState.cpp" />
+    <ClCompile Include="Game\StateManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Map\CleanBoard.cpp" />
+    <ClCompile Include="Map\ConstantsMap.cpp" />
+    <ClCompile Include="Map\Cookie.cpp" />
+    <ClCompile Include="Map\CreateMenu.cpp" />
+    <ClCompile Include="Map\Enemy.cpp" />
+    <ClCompile Include="Map\Object.cpp" />
+    <ClCompile Include="Map\Pacman.cpp" />
+    <ClCompile Include="Map\Painter.cpp" />
+    <ClCompile Include="Map\Save.cpp" />
+    <ClCompile Include="Map\Wall.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Sounds.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="gameWindow.h" />
+    <ClInclude Include="Game\GameState.h" />
+    <ClInclude Include="Game\MenuState.h" />
+    <ClInclude Include="Game\PacEngine.h" />
+    <ClInclude Include="Game\PacEntity.h" />
+    <ClInclude Include="Game\PacEvent.h" />
+    <ClInclude Include="Game\PointerPack.h" />
+    <ClInclude Include="Game\ScoreState.h" />
+    <ClInclude Include="Game\SpecialState.h" />
+    <ClInclude Include="Game\State.h" />
+    <ClInclude Include="Game\StateManager.h" />
+    <ClInclude Include="Map\CleanBoard.h" />
+    <ClInclude Include="Map\ConstantsMap.h" />
+    <ClInclude Include="Map\Cookie.h" />
+    <ClInclude Include="Map\CreateMenu.h" />
+    <ClInclude Include="Map\Enemy.h" />
+    <ClInclude Include="Map\Object.h" />
+    <ClInclude Include="Map\Pacman.h" />
+    <ClInclude Include="Map\Painter.h" />
+    <ClInclude Include="Map\Save.h" />
+    <ClInclude Include="Map\Wall.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Sounds.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="arial.ttf" />
+    <Font Include="Endless Wall.ttf" />
+    <Font Include="Game\DejaVuSans.ttf" />
+    <Font Include="Map\arial.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Game\bibreman.png" />
+    <Image Include="Game\testpac.tga" />
+    <Image Include="Game\testpacRed.tga" />
+    <Image Include="Game\testpacWhite - Copy.tga" />
+    <Image Include="Game\testpacWhite.tga" />
+    <Image Include="Map\icons.jpg" />
+    <Image Include="pacmoon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Background_sound.ogg" />
+    <None Include="buttom.ogg" />
+    <None Include="Game\bad.ogg" />
+    <None Include="Game\shalom.ogg" />
+    <None Include="Map\place.ogg" />
+    <None Include="welcome.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Map\load.wav" />
+    <Media Include="Map\place.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Game\High.txt" />
+    <Text Include="Game\Level1.txt" />
+    <Text Include="Game\Level2.txt" />
+    <Text Include="Game\Level3.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

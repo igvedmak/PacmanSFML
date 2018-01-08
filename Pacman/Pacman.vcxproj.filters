@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ba0dcc83-9de2-47f4-9a73-7c1ae4bea175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{604104bd-bcb6-4ea4-9347-05973b4326b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\CleanBoard.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\ConstantsMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Cookie.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\CreateMenu.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Enemy.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Object.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Painter.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Pacman.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Save.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Wall.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameState.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MenuState.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PacEngine.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ScoreState.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\StateManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\CleanBoard.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\ConstantsMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Cookie.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\CreateMenu.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Enemy.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Object.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Pacman.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Painter.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Save.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Wall.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameState.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MenuState.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PacEngine.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PacEntity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PacEvent.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PointerPack.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ScoreState.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SpecialState.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\State.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\StateManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Map\load.wav">
+      <Filter>Map</Filter>
+    </Media>
+    <Media Include="Map\place.wav">
+      <Filter>Map</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pacmoon.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Map\icons.jpg">
+      <Filter>Map</Filter>
+    </Image>
+    <Image Include="Game\testpacRed.tga">
+      <Filter>Game</Filter>
+    </Image>
+    <Image Include="Game\testpac.tga">
+      <Filter>Game</Filter>
+    </Image>
+    <Image Include="Game\bibreman.png">
+      <Filter>Game</Filter>
+    </Image>
+    <Image Include="Game\testpacWhite - Copy.tga">
+      <Filter>Game</Filter>
+    </Image>
+    <Image Include="Game\testpacWhite.tga">
+      <Filter>Game</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="arial.ttf" />
+    <Font Include="Endless Wall.ttf" />
+    <Font Include="Map\arial.ttf">
+      <Filter>Map</Filter>
+    </Font>
+    <Font Include="Game\DejaVuSans.ttf">
+      <Filter>Game</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Background_sound.ogg" />
+    <None Include="buttom.ogg" />
+    <None Include="Map\place.ogg" />
+    <None Include="welcome.ogg" />
+    <None Include="Game\bad.ogg">
+      <Filter>Game</Filter>
+    </None>
+    <None Include="Game\shalom.ogg">
+      <Filter>Game</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Game\Level3.txt">
+      <Filter>Game</Filter>
+    </Text>
+    <Text Include="Game\Level2.txt">
+      <Filter>Game</Filter>
+    </Text>
+    <Text Include="Game\Level1.txt">
+      <Filter>Game</Filter>
+    </Text>
+    <Text Include="Game\High.txt">
+      <Filter>Game</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
